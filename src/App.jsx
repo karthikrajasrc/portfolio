@@ -7,39 +7,55 @@ import Experience from './Pages/Experience'
 import Project from './Pages/Project'
 import Contact from './Pages/Contact'
 import LightRays from './component/LightRays';
+import ScrollReveal from './component/ScrollReveal';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div style={{  position: "fixed",
+     <div
+  style={{
+    position: "fixed",
     top: 0,
     left: 0,
-    width: "100vw",
+    width: "100%",
     height: "100vh",
-    zIndex: -1}}>
+    zIndex: -1,
+    background: "radial-gradient(circle at top, #111 0%, #000 60%)"
+  }}
+>
   <LightRays
     raysOrigin="top-center"
-    raysColor="#ffffff"
-    raysSpeed={1.5}
-    lightSpread={2}
-    rayLength={3}
+    raysColor="#00f2ff"   
+    raysSpeed={1.8}
+    lightSpread={3.5}
+    rayLength={4}
     followMouse={true}
-    mouseInfluence={0.1}
-    noiseAmount={0.13}
-    distortion={0}
-    className="custom-rays"
-    pulsating={false}
-    fadeDistance={2}
-          saturation={0.8}
-/>
-</div>  
-      <Home />
-      <Certification />
-      <Skills />
-      <Experience />
-      <Project />
-      <Contact />
+    mouseInfluence={0.12}
+    noiseAmount={0.05}
+    distortion={0.15}
+    fadeDistance={1.2}
+    saturation={1}
+  />
+      </div>
+      <ScrollReveal>
+        <Home />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Skills />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Certification />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Project />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Experience />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Contact />
+      </ScrollReveal>
     </>
   )
 }
