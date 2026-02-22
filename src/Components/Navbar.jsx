@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <>     
       <div className="navbar-main">
-        <button className="download-cv-btn-side"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</button>
+        <a href="/resume.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn-side"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
         
         <MdMenuOpen size={28} className="menu-button" onClick={handlemenu} />
         <div className="side-bar-links">
@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-head">   
-          <button className="download-cv-btn"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</button>
+          <a href="/resume.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn" id="download-cv-btn-head"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
               <a href='#home'>Home</a>
               <a href='#skills'>Skills</a>
               <a href='#certification'>Certification</a>

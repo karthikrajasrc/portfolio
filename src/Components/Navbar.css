@@ -49,6 +49,8 @@ display: none;
             font-weight: bold;
             box-shadow: 0px 0px 10px #22b9c1;
             animation: scale 1s infinite;
+            text-decoration: none;
+            color: #22b9c1;
         }
     
         @keyframes scale {
@@ -100,11 +102,12 @@ display: none;
         border-radius: 5px;
         border: none;
         background-color: rgb(0, 0, 0);
-        color: #22b9c1;
         font-size: 15px;
         font-weight: bold;
         box-shadow: 0px 0px 10px #22b9c1;
         animation: scale 1s infinite;
+        text-decoration: none;
+            color: #22b9c1;
     }
 
     @keyframes scale {
@@ -172,5 +175,4 @@ display: none;
         top: 45px;
         right: 25px;
     }
-
 }

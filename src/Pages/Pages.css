@@ -52,6 +52,10 @@
     color: aqua;
 }
 
+.Home-buttons-btn:hover a {
+    color: aqua;
+}
+
 .Home-photo {
     border-radius: 50% 50% 50% 50%;
     border: 2px solid rgb(0, 0, 0);
@@ -348,6 +352,18 @@
     width: 180px;
 }
 
+.contact-linkedin a,
+.contact-whatsapp a,
+.contact-email a,
+.contact-github a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(0, 255, 255, 0.133);
+    width: 180px;
+}
+
 .contact-linkedin img,
 .contact-whatsapp img,
 .contact-email img,
@@ -367,6 +383,22 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.footer-main {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.Home-buttons-btn a {
+    text-decoration: none;
+    color: #000000;
+}
+
 
 @media screen and (max-width: 500px) {
     .Home-name {
@@ -403,6 +435,15 @@
         color: #000000;
         font-size: 15px;
         font-weight: bold;
+    }
+
+    .Home-buttons-btn a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .Home-buttons-btn:hover a {
+        color: aqua;
     }
 
     .Home-photo {
@@ -717,13 +758,21 @@
     .contact-whatsapp:hover,
     .contact-email:hover,
     .contact-github:hover {
-        box-shadow: 0 0 20px rgba(11, 230, 226, 0.8);
-        transform: scale(1.1);
+        box-shadow: none;
+        transform: scale(1.0);
         cursor: pointer;
         transition: all 0.3s ease;
     }
 
-
+    .footer-main {
+        color: white;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
 
 
 }
