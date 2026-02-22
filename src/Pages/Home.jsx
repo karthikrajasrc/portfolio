@@ -11,7 +11,7 @@ const Home = () => {
         </div>
         <div className="Home-buttons">
           <a
-            href="mailto:[karthikrajarc@gmail.com]"
+            href="mailto:karthikrajarc@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           ><button className="Home-buttons-btn">  E-Mail</button></a>

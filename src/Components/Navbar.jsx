@@ -15,7 +15,7 @@ const Navbar = () => {
   const handlemenu = () => {
     document.querySelector(".side-bar-links").classList.add("show");
   }
-  
+
   const handlecancel = () => {
     document.querySelector(".side-bar-links").classList.remove("show");
   }
@@ -25,14 +25,14 @@ const Navbar = () => {
   }
 
   return (
-    <>     
+    <>
       <div className="navbar-main">
-        <a href="/resume.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn-side"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
-        
+        <a href="/Karthik%20Raja.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn-side"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
+
         <MdMenuOpen size={28} className="menu-button" onClick={handlemenu} />
         <div className="side-bar-links">
           <HiOutlineArrowRightOnRectangle size={28} className="cancel-button"
-          onClick={handlecancel}/>
+            onClick={handlecancel} />
           <a href='#home' className="nav-links" onClick={handleclose}>Home</a>
           <a href='#skills' className="nav-links" onClick={handleclose}>Skills</a>
           <a href='#certification' className="nav-links" onClick={handleclose}>Certification</a>
@@ -41,17 +41,17 @@ const Navbar = () => {
           <a href='#contact' className="nav-links" onClick={handleclose}>Contact</a>
         </div>
 
-        <div className="navbar-head">   
+        <div className="navbar-head">
           <a href="/resume.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn" id="download-cv-btn-head"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
-              <a href='#home'>Home</a>
-              <a href='#skills'>Skills</a>
-              <a href='#certification'>Certification</a>
-              <a href='#project'>Project</a>
-              <a href='#experience'>Experience</a>
-            <a href='#contact'>Contact</a>
-            </div>
+          <a href='#home'>Home</a>
+          <a href='#skills'>Skills</a>
+          <a href='#certification'>Certification</a>
+          <a href='#project'>Project</a>
+          <a href='#experience'>Experience</a>
+          <a href='#contact'>Contact</a>
         </div>
-      </>
+      </div>
+    </>
   )
 }
 
