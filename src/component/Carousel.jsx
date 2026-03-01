@@ -4,6 +4,7 @@ import { motion, useMotionValue, useTransform } from 'motion/react';
 import { FiCircle, FiCode, FiFileText, FiLayers, FiLayout } from 'react-icons/fi';
 import movie from "../assets/images/moviereview.svg"
 import invoice from "../assets/images/invoice.svg"
+import taskmanager from "../assets/images/taskmanager.svg"
 
 import './Carousel.css';
 
@@ -31,6 +32,18 @@ const DEFAULT_ITEMS = [
     id: 2,
     image: 
       (<img src={ invoice} />)
+  },
+    {
+    title: 'Task Manager',
+    description: 'Tech Used: HTML, CSS, JavaScript',
+     liveDemo: (
+  <a href="https://algonivetasksmanager.netlify.app/" target="_blank">
+    Live Demo
+  </a>
+),
+    id: 3,
+    image: 
+      (<img src={ taskmanager} />)
   }
 ];
 
