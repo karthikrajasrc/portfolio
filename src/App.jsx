@@ -13,30 +13,30 @@ const App = () => {
   return (
     <>
       <Navbar />
-     <div
-  style={{
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100vh",
-    zIndex: -1,
-    background: "radial-gradient(circle at top, #111 0%, #000 60%)"
-  }}
->
-  <LightRays
-    raysOrigin="top-center"
-    raysColor="#00f2ff"   
-    raysSpeed={1.8}
-    lightSpread={3.5}
-    rayLength={4}
-    followMouse={true}
-    mouseInfluence={0.12}
-    noiseAmount={0.05}
-    distortion={0.15}
-    fadeDistance={1.2}
-    saturation={1}
-  />
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100vh",
+          zIndex: -1,
+          background: "radial-gradient(circle at top, #111 0%, #000 60%)"
+        }}
+      >
+        <LightRays
+          raysOrigin="top-center"
+          raysColor="#00f2ff"
+          raysSpeed={1.8}
+          lightSpread={3.5}
+          rayLength={4}
+          followMouse={true}
+          mouseInfluence={0.12}
+          noiseAmount={0.05}
+          distortion={0.15}
+          fadeDistance={1.2}
+          saturation={1}
+        />
       </div>
       <ScrollReveal>
         <Home />

@@ -90,10 +90,11 @@
         align-items: center;
         color: white;
         background-color: #000000;
-        height: 70px;
+        height: 90px;
         backdrop-filter: blur(12px);
         background: rgba(0, 0, 0, 0.4);
         border-bottom: 1px solid rgba(0, 242, 255, 0.2);
+        z-index: 10;
     }
 
     .download-cv-btn-side {
@@ -139,14 +140,14 @@
     .side-bar-links {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        padding-top: 165px;
         position: fixed;
         left: 0;
         top: 0;
         width: 60%;
         background-color: white;
         height: 100vh;
-        gap: 10px;
+        gap: 25px;
         align-items: center;
         transform: translateX(-100%);
         transition: transform 0.35s cubic-bezier(0.77, 0, 0.175, 1);
