@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-head">
-          <a href="/resume.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn" id="download-cv-btn-head"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
+          <a href="/Karthik%20Raja.pdf" download="Karthik_Raja_Resume.pdf" className="download-cv-btn" id="download-cv-btn-head"><FontAwesomeIcon icon={faDownload} /> &nbsp; Download CV</a>
           <a href='#home'>Home</a>
           <a href='#skills'>Skills</a>
           <a href='#certification'>Certification</a>

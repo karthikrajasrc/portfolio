@@ -11,7 +11,7 @@ import './Carousel.css';
 const DEFAULT_ITEMS = [
   {
     title: 'Moview Review',
-    description: 'Tech Used: React JS, Tailwind CSS',
+    description: 'Tech Used: React JS, Tailwind CSS, TMDB API',
    liveDemo: (
   <a href="https://moviesreviewerr.netlify.app/" target="_blank">
     Live Demo
@@ -23,7 +23,7 @@ const DEFAULT_ITEMS = [
   },
   {
     title: 'Invoice Builder',
-    description: 'Tech Used: React JS, Tailwind CSS',
+    description: 'Tech Used: React JS, Tailwind CSS, html2pdf.js',
      liveDemo: (
   <a href="https://invoicesbuilder.netlify.app/" target="_blank">
     Live Demo

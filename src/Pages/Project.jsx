@@ -2,7 +2,7 @@ import Carousel from '../component/Carousel'
 
 const Project = () => {
   return (
-    <div>
+    <div className='carousel-wrapper'>
       <h1 id='project'>Project</h1>
     <div style={{ height: '350px', position: 'relative', display: "flex", justifyContent: "center" }}>
   <Carousel

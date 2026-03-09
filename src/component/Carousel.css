@@ -6,6 +6,7 @@
   padding: 16px 0 16px 16px;
   --outer-r: 24px;
   --p-distance: 12px;
+  margin: 0 auto;
 }
 
 .carousel-track {
@@ -85,7 +86,6 @@
 }
 
 .carousel-item-header {
-  margin-bottom: 16px;
   padding: 20px;
   padding-top: 20px;
 }
@@ -107,6 +107,7 @@
   font-size: 14px;
   color: #fff;
   font-weight: 700;
+  margin: 0px 15px;
 }
 
 .carousel-indicators-container {
@@ -121,6 +122,9 @@
   width: 150px;
   justify-content: space-around;
   padding: 0 32px;
+}
+.carousel-item-content {
+  padding: 0px 10px;
 }
 
 .carousel-indicator {
