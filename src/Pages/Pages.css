@@ -242,6 +242,78 @@
     padding: 25px;
 }
 
+
+                .projects-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 10px;
+                    padding: 10px;
+                    margin: 40px 80px;
+                }
+        
+                .project-card {
+                    border: 1px solid rgb(255, 255, 255);
+                    border-radius: 20px;
+                    background-color: rgba(0, 255, 255, 0.133);
+                    padding: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    transition: all 0.3s ease;
+                    margin: 0px 30px;
+                }
+        
+                .project-card:hover {
+                    box-shadow: 0 0 20px rgba(11, 230, 226, 0.8);
+                    transform: scale(1.05);
+                }
+        
+                .project-image img {
+                    height: 95px;
+                    width: 240px;
+                    border-radius: 15px;
+                    margin-top: 5px;
+                }
+        
+                .project-content {
+                    text-align: center;
+                    color: white;
+                }
+        
+                .project-title {
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+        
+                .project-description {
+                    font-size: 17px;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+        
+                .project-live-demo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+        
+                .project-live-demo a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                    border: 1px solid white;
+                    padding: 6px 12px;
+                    border-radius: 8px;
+                    background-color: rgba(0, 255, 255, 0.2);
+                    transition: all 0.3s ease;
+                }
+        
+                .project-live-demo a:hover {
+                    background-color: aqua;
+                    color: black;
+                }
+
 .exp-tcs {
     display: flex;
     width: 650px;
@@ -428,6 +500,77 @@
         font-size: 15px;
         font-weight: bold;
     }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            padding: 0px;
+            margin: 0 auto;
+        }
+    
+        .project-card {
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 20px;
+            background-color: rgba(0, 255, 255, 0.133);
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.3s ease;
+            margin: 12px 3px;
+        }
+    
+        .project-card:hover {
+            box-shadow: 0 0 20px rgba(11, 230, 226, 0.8);
+            transform: scale(1.05);
+        }
+    
+        .project-image img {
+            height: 62px;
+            width: 150px;
+            border-radius: 15px;
+            margin-top: 5px;
+        }
+    
+        .project-content {
+            text-align: center;
+            color: white;
+        }
+    
+        .project-title {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+        .project-description {
+            font-size: 15px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .project-live-demo {
+            display: flex;
+            align-items: center;
+                justify-content: center;
+            margin-bottom: 8px;
+        }
+
+        .project-live-demo a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border: 1px solid white;
+            padding: 6px 12px;
+            border-radius: 8px;
+            background-color: rgba(0, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+    
+        .project-live-demo a:hover {
+            background-color: aqua;
+            color: black;
+        }
 
     .Home-buttons {
         display: flex;
