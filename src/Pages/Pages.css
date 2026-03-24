@@ -522,13 +522,13 @@
     
         .project-card:hover {
             box-shadow: 0 0 20px rgba(11, 230, 226, 0.8);
-            transform: scale(1.05);
+            transform: scale(1.0);
         }
     
         .project-image img {
             height: 62px;
             width: 150px;
-            border-radius: 15px;
+            border-radius: 12px;
             margin-top: 5px;
         }
     
