@@ -1,5 +1,6 @@
 import guvi from "../assets/images/guvi.svg"
 import algonive from "../assets/images/algonive.svg"
+import mern from "../assets/images/MERN.png"
 
 const Certification = () => {
   return (
@@ -32,6 +33,9 @@ const Certification = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div>
+          <img src={mern} alt="" className="certify-mern" />
         </div>
         <div className="certify-alg">
           <div className="certify-alg-logo">
